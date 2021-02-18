@@ -1,3 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif; 
 }
+
+.callout-container {
+    width: 100vh;
+ 
+  background: url("../css/style.css") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
