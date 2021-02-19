@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white; 
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -40,6 +46,15 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 
 /* Block dividers */
 
@@ -54,8 +69,17 @@ body {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .navalert-container {
@@ -131,4 +155,9 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
 }
