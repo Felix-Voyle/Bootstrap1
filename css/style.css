@@ -4,8 +4,6 @@ body {
 
 /* Containers */
 
-.alert-container {}
-
 .callout-container {
     height: 100vh;
 
@@ -63,6 +61,18 @@ body {
     border: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    font-weight: bold;
 }
 
 /* Jumbotron */
